@@ -1,8 +1,9 @@
 import React from "react"
+import profilePicture from './images/profile-picture.jpeg'
 
 function PhotoFoto() {
     return (
-        <img className="photo--" src="./src/images/profile-picture.jpeg" alt="Rizza Marwan" />
+        <img src={profilePicture} alt="Rizza Marwan" />
     )
 }
 
