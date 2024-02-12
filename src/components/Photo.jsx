@@ -1,5 +1,5 @@
 import React from "react"
-import profilePicture from './src/images/profile-picture.jpeg'
+import profilePicture from '/profile-picture.jpeg'
 
 function PhotoFoto() {
     return (
