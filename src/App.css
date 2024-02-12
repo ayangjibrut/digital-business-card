@@ -83,14 +83,24 @@ a {
   padding: 0 2em 7em;
 }
 
-h2.font-awesome-- {
-  font-size: 2rem;
+ul {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
 }
 
-.footer {
+li {
+  list-style: none;
+}
+
+#font-awesome-- {
+  font-size: 2rem;
+  background: none;
+  color: whitesmoke;
+  padding: 0;
+}
+
+.footer-- {
   text-align: center;
   padding: .5em;
   background: #101114;

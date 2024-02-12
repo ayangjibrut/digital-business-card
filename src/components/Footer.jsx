@@ -4,12 +4,12 @@ import { faSquareTwitter, faSquareFacebook, faSquareInstagram, faSquareGithub } 
 
 function Footer() {
     return (
-        <h2 className="footer font-awesome--">
-            <a href="https://twitter.com/ayangjibrut"><FontAwesomeIcon icon={faSquareTwitter} /></a>
-            <a href="https://www.facebook.com/ayangjibrut"><FontAwesomeIcon icon={faSquareFacebook} /></a>
-            <a href="https://www.instagram.com/jibzky/"><FontAwesomeIcon icon={faSquareInstagram} /></a>
-            <a href="https://github.com/ayangjibrut"><FontAwesomeIcon icon={faSquareGithub} /></a>
-        </h2>
+        <ul className="footer-- font-awesome--">
+            <li><a id="font-awesome--" href="https://twitter.com/ayangjibrut"><FontAwesomeIcon icon={faSquareTwitter} /></a></li>
+            <li><a id="font-awesome--" href="https://www.facebook.com/ayangjibrut"><FontAwesomeIcon icon={faSquareFacebook} /></a></li>
+            <li><a id="font-awesome--" href="https://www.instagram.com/jibzky/"><FontAwesomeIcon icon={faSquareInstagram} /></a></li>
+            <li><a id="font-awesome--" href="https://github.com/ayangjibrut"><FontAwesomeIcon icon={faSquareGithub} /></a></li>
+        </ul>
     )
 }
 
